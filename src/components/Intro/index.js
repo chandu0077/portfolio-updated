@@ -66,7 +66,7 @@ const Intro = () => {
           </div>
         </a>
         <a
-          href="https://drive.google.com/file/d/1uUkkExzsxhYvuksAmr2U6ZxUpVXscRR1/view?usp=sharing"
+          href="https://drive.google.com/file/d/1tqZEQepcI5SjcKH9Qxef61blkxZTb0HZ/view?usp=sharing"
           target="_blank"
           className="text-xl"
         >
