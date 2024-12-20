@@ -88,10 +88,10 @@ const Projects = () => {
               <FaFolder size={25} color="#6cf301" />
               <div className="flex cursor-pointer gap-4">
                 <a href={project.github} target="_blank">
-                  <IoLogoGithub size={25} />
+                  <IoLogoGithub size={25} color="white" />
                 </a>
                 <a href={project.link} target="_blank">
-                  <LuUpload size={25} />
+                  <LuUpload size={25} color="white" />
                 </a>
               </div>
             </div>
