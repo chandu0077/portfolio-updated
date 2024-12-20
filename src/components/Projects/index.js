@@ -87,11 +87,11 @@ const Projects = () => {
             <div className="flex w-full justify-between items-center">
               <FaFolder size={25} color="#6cf301" />
               <div className="flex cursor-pointer gap-4">
-                <a href={projects.github} target="_blank">
-                  <IoLogoGithub size={25} color="white" />
+                <a href={project.github} target="_blank">
+                  <IoLogoGithub size={25} />
                 </a>
-                <a href={projects.link} target="_blank">
-                  <LuUpload size={25} color="white" />
+                <a href={project.link} target="_blank">
+                  <LuUpload size={25} />
                 </a>
               </div>
             </div>

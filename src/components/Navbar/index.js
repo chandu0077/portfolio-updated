@@ -51,7 +51,7 @@ const Navbar = () => {
             <FaGithub size={"25px"} />
           </a>
           <a
-            href="https://www.linkedin.com/in/chandu-dsc-385086236/"
+            href="https://www.linkedin.com/in/chandu-d-385086236/"
             target="_blank"
             className="text-white text-xl hover:text-[#6cf301] font-semibold"
           >

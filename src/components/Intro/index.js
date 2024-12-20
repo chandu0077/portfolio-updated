@@ -57,27 +57,26 @@ const Intro = () => {
         viewport={{ once: false, amount: 0.5 }}
         className="flex flex-col lg:flex lg:flex-row justify-center gap-[36px] w-full items-center mt-8"
       >
-        <div className="p-2 lg:p-6  border-[#6cf301] text-[#6cf301] border-2 rounded-md">
-          <div className="flex justify-center gap-2 items-center">
-            <CgMail size={"22px"} />
-            <a href="gmailto:chandu.dsc77@gmail.com" className="text-xl">
+        <a href="mailto:chandu.dsc77@gmail.com" className="text-xl">
+          <div className="p-2 lg:p-6  border-[#6cf301] text-[#6cf301] border-2 rounded-md">
+            <div className="flex justify-center gap-2 items-center">
+              <CgMail size={"22px"} />
               say hi
-            </a>
+            </div>
           </div>
-        </div>
-        <div className="p-2 lg:p-6 border-[#6cf301]  text-[#6cf301] border-2 rounded-md">
-          <div className="flex justify-center gap-2 items-center">
-            <WiDirectionUpRight size={"25px"} />
-
-            <a
-              href="https://drive.google.com/file/d/1xMa-ggnIZUuZmwUbb2cJJkDQj6yKzCgN/view?usp=sharing"
-              target="_blank"
-              className="text-xl"
-            >
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1uUkkExzsxhYvuksAmr2U6ZxUpVXscRR1/view?usp=sharing"
+          target="_blank"
+          className="text-xl"
+        >
+          <div className="p-2 lg:p-6 border-[#6cf301]  text-[#6cf301] border-2 rounded-md">
+            <div className="flex justify-center gap-2 items-center">
+              <WiDirectionUpRight size={"25px"} />
               Resume
-            </a>
+            </div>
           </div>
-        </div>
+        </a>
       </motion.div>
     </div>
   );

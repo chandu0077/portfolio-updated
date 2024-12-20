@@ -25,9 +25,13 @@ const Body = () => {
         viewport={{ once: true, amount: 0.5 }}
       >
         <p className="text-white text-lg text-center">
-          Buit by - <span className="text-[#6cf301]"> chandu</span>
+          Buit by -{" "}
+          <span className="text-[#6cf301]">
+            {" "}
+            <a href="mailto:chandu.dsc77@gmail.com">chandu</a>
+          </span>
         </p>
-        <p className="text-white text-lg text-center">All rights reserved @</p>
+        <p className="text-white text-lg text-center">All rights reserved</p>
       </motion.div>
     </div>
   );

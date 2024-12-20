@@ -20,7 +20,7 @@ const Experience = () => {
         <div>
           <p className="text-white text-xl lg:text-2xl font-itim">
             Frontend Developer @{" "}
-            <span className="text-[#6cf301]">Freelancing Client</span>
+            <span className="text-[#6cf301]">Freelancing</span>
           </p>
           <p className="text-white text-lg lg:text-xl font-Montserrat">
             AuG 2023 - JUL 2024

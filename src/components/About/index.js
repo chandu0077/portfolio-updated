@@ -61,7 +61,7 @@ const About = () => {
                   </li>
                   <li className="list-item lg:list-disc list-inside">SQL</li>
                   <li className="list-item lg:list-disc list-inside">
-                    MongoDB/PostgreSQL
+                    MongoDB
                   </li>
                 </ul>
               </div>
