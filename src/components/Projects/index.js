@@ -70,7 +70,7 @@ const Projects = () => {
       </div>
       <ProjectSlider />
       <motion.div
-        initial={{ opacity: 0, y: 50 }}
+        initial={{ opacity: 50, y: 50 }}
         whileInView={{
           opacity: 1,
           y: 0,

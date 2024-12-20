@@ -24,7 +24,7 @@ const Body = () => {
         }}
         viewport={{ once: true, amount: 0.5 }}
       >
-        <p className="text-white text-lg text-center">
+        <p className="text-white mt-8 text-lg text-center">
           Buit by -{" "}
           <span className="text-[#6cf301]">
             {" "}
