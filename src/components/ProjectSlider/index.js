@@ -42,7 +42,7 @@ const ProjectSlider = () => {
     dots: true,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 1200,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -72,7 +72,7 @@ const ProjectSlider = () => {
           >
             {/* Overlay with semi-transparent background */}
             <div
-              className="relative flex flex-col items-center rounded-t-2xl justify-center w-full h-full bg-cover bg-center bg-opacity-5 bg-slate-300 p-6"
+              className="relative flex flex-col items-center rounded-t-2xl justify-center w-full h-full bg-cover bg-center bg-opacity-1 bg-slate-800 p-6"
               style={{
                 backgroundImage: `url(${project.backgroundImg})`, // Path relative to public folder
               }}

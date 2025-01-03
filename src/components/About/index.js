@@ -15,8 +15,8 @@ const About = () => {
       <div className="flex">
         <p className="text-white text-2xl lg:text-5xl">/about me</p>
       </div>
-      <div className="flex flex-col items-center lg:flex lg:flex-row justify-between  lg:items-start w-full h-auto mt-8">
-        <div className="w-[65%] h-auto">
+      <div className="flex flex-col items-center lg:flex  lg:flex-row justify-between  lg:items-start w-full h-auto mt-8">
+        <div className="w-full h-auto">
           <p className="text-white text-center lg:text-start leading-9 text-sm lg:text-xl font-Montserrat">
             I am currently looking for Full Stack Developer / Front End Engineer
             role either as an{" "}
@@ -68,11 +68,11 @@ const About = () => {
             </div>
           </div>
         </div>
-        <img
+        {/* <img
           src="img/profile-image.JPG"
           alt="profile"
           className="h-[400px] hidden lg:block w-[25%]"
-        />
+        /> */}
       </div>
     </motion.div>
   );
